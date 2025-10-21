@@ -20,3 +20,17 @@ Specifically, we need to be able to:
 . assign priority to different types of work.
 . reuse previously completed work.
 . abort work if it's no longer needed. 
+
+
+4. Interview question for counter One
+   setCounter(counter + 1);
+    setCounter(counter + 1);
+    setCounter(counter + 1);
+    setCounter(counter + 1);
+this will give the update only one time as if vaue is 10 resukt will be 11 on click bcz it will work in a batch, get process like a bunch and update the value of counter only once.
+
+    setCounter((prevCounter)=> prevCounter + 1);
+    setCounter((prevCounter)=> prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+this will give the output of the last number after the total number of update as if value is 15 then output will be 19 bcz it will take the value of the previous counter not as in a bunch but in a single LOC.
