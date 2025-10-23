@@ -35,11 +35,25 @@ this will give the update only one time as if vaue is 10 resukt will be 11 on cl
     setCounter((prevCounter) => prevCounter + 1);
 this will give the output of the last number after the total number of update as if value is 15 then output will be 19 bcz it will take the value of the previous counter not as in a bunch but in a single LOC.
 
+********************HOOKS****************************
+
 5. useCallback
 useCallback is a React Hook that lets you cache a function definition between re-renders.
+const cachedFn = useCallback(fn, dependencies)
 
 6. useEffect
 useEffect is a React Hook that lets you synchronize a component with an external system.
+useEffect(setup, dependencies?)
 
 7. useRef
 useRef is a React Hook that lets you reference a value.
+const ref = useRef(initialValue)
+
+8. useState
+useState is a React Hook that lets you add a state variable to your component.
+const [state, setState] = useState(initialState)
+
+9. useId
+useId is a React Hook for generating unique IDs that can be passed to accessibility attributes.
+const id = useId()
+!!Do not call useId to generate keys in a list. Keys should be generated from your data.
