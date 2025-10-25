@@ -57,3 +57,9 @@ const [state, setState] = useState(initialState)
 useId is a React Hook for generating unique IDs that can be passed to accessibility attributes.
 const id = useId()
 !!Do not call useId to generate keys in a list. Keys should be generated from your data.
+
+************************HOOKS END************************************
+
+10. Interview question
+*****Link: we use in place of  'a' tag, whenerver we use 'a' tag whole page get refresh and in react we dont haave refresh concept, we should not react 'a' tag.
+*****NavLink: Wraps <Link> with additional props for styling active and pending states.
