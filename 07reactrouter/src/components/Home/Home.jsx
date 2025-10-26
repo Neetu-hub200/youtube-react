@@ -28,6 +28,14 @@ export default function Home() {
               </svg>
               &nbsp; Download now
             </Link>
+            <div className="mt-4">
+              <Link
+                className="inline-flex text-orange-700 items-center px-4 py-2 font-medium bg-white rounded-lg border border-orange-700 hover:opacity-90"
+                to="/user/1"
+              >
+                View user 1
+              </Link>
+            </div>
           </div>
         </div>
 
