@@ -63,3 +63,15 @@ const id = useId()
 10. Interview question
 *****Link: we use in place of  'a' tag, whenerver we use 'a' tag whole page get refresh and in react we dont haave refresh concept, we should not react 'a' tag.
 *****NavLink: Wraps <Link> with additional props for styling active and pending states.
+
+
+*********************REDUX NOTES**********************
+
+1. make one store for each application
+2. make a file for slice in we need 3 major things: name, initialstate and reducers
+
+Reducers-- object in which we can make as much as key function in which we get access of state and action. 
+export-- individually functionality, main source
+
+3. use dispatcher to send the value 
+4. use selector to featch the value
